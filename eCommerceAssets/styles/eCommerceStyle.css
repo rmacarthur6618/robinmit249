@@ -14,6 +14,17 @@ h2 {
 	margin-top: -13px;
 	
 }
+
+h3 {
+	color: #7F144D;
+	font-family: "Glossy Sheen", fantasy;
+	text-align: center;
+	font-size: 50px;
+	vertical-align: middle;
+	margin-bottom: 20px;
+	margin-top: -13px;
+}
+
 /*header*/
 header {
 	font-family: 'Montserrat', sans-serif;
@@ -470,4 +481,10 @@ header #headerLinks a {
 
 .logolink a:hover {
 	color: rgba(230,99,169,1.00);
+}
+.body {
+}
+.content {
+}
+#menubar {
 }
