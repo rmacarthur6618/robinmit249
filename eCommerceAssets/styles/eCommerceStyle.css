@@ -33,6 +33,19 @@ header {
 	font-style: normal;
 	font-weight: 400;
 }
+
+/* message at the bottom of the nav */
+#message {
+  clear: left;
+  font-family:"Fredoka One", "sans-serif";
+  background-color: #A41963;
+  border-radius: 7px;
+  color: white;
+  width:170px;
+  padding: 18px 30px;
+  text-align: center;
+}
+
 /* Logo placeholder*/
 #logo {
 	padding-top: 10px;
