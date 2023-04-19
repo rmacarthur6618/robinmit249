@@ -3,7 +3,7 @@
 
   var item = {
     name: 'Mini Squishmallow 8 Pack',
-    itemRate: 28.99, // Amount in dollars
+    itemRate: 29, // Amount in dollars
     discount: 25,  // Percentage discount
     offerPrice: function() {
       var offerRate = this.itemRate * ((100 - this.discount) / 100);
