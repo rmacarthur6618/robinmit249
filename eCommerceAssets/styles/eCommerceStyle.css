@@ -4,6 +4,17 @@ a:hover {
 	color: rgba(255,255,255,1.00);
 }
 
+h1 {
+	color: #7F144D;
+	font-family: "Glossy Sheen", fantasy;
+	text-align: center;
+	font-size: 70px;
+	vertical-align: middle;
+	margin-bottom: -3px;
+	margin-top: -13px;
+	
+}
+
 h2 {
 	color: #7F144D;
 	font-family: "Glossy Sheen", fantasy;
@@ -38,21 +49,20 @@ header {
 	text-transform: uppercase;
 	color: white;
 	font-size: 100%;
-	clear: left;
 	font-family:"Fredoka One", "sans-serif";
 	background-color: #A41963;
 	border-radius: 7px;
 	width: 170px;
 	padding: 18px 30px;
 	margin-bottom: 40px;
-	margin-left: 33px;
+	margin-left: 9px;
 	text-align: center;
 }
 
-#roomRate{
+#itemRate{
   text-decoration: line-through;
   display: inline-block;
-  float: left;
+  float: center;
   padding-top: 10px;
 }
 
@@ -64,25 +74,27 @@ header {
   margin: 0;
 }
 
-#hotelName {
+#itemName {
   text-transform: uppercase;
+  color: #7F144D;
+  font-family: "Fredoka One", "sans-serif";
   text-align: center; 
-  font-size: 120%;
+  font-size: 100%;
   margin-top: 10px;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff; 
+  border-top: 1px solid #7F144D;
+  border-bottom: 1px solid #7F144D; 
   padding: 10px 0;
 }
 
 #info {
-  background-color: #1e1b1e;
+  background-color: rgba(191,119,158,0.77);
+  border-radius: 7px;
   color: #fff;
-  width: 200px;
+  margin-top: 15px;
+  min-width: 200px;
   padding: 0 15px;
   text-align: center;
   min-height: 100%;
-  top: 0;
-  right: 15%;
 }
 
 /* Logo placeholder*/
