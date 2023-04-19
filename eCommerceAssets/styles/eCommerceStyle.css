@@ -34,22 +34,26 @@ header {
 	font-weight: 400;
 }
 
-/* message at the bottom of the nav */
-#message {
-  clear: left;
-  font-family:"Fredoka One", "sans-serif";
-  background-color: #A41963;
-  border-radius: 7px;
-  color: white;
-  width:170px;
-  padding: 18px 30px;
-  text-align: center;
+#offerEnds {
+	text-transform: uppercase;
+	color: white;
+	font-size: 100%;
+	clear: left;
+	font-family:"Fredoka One", "sans-serif";
+	background-color: #A41963;
+	border-radius: 7px;
+	width: 170px;
+	padding: 18px 30px;
+	margin-bottom: 40px;
+	margin-left: 27px;
+	text-align: center;
 }
 
 /* Logo placeholder*/
 #logo {
 	padding-top: 10px;
 	padding-bottom: 10px;
+	border-radius: 7px;
 	width: auto;
 	text-align: center;
 	color: rgba(246,236,242,1.00);
