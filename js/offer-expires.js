@@ -3,7 +3,7 @@ var expiryMsg;
 var today;
 var elEnds;
 
-function offerExpires(today) {
+(function offerExpires(today) {
 	// date variables within function
 	var weekFromToday, day, date, month, year, dayNames, monthNames;
 	// adds 7 days to current date
