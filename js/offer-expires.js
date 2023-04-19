@@ -1,26 +1,26 @@
 (function() {
 
 
-  var hotel = {
-    name: 'Park',
-    roomRate: 240, // Amount in dollars
-    discount: 15,  // Percentage discount
+  var item = {
+    name: 'Mini Squishmallow 8 Pack',
+    itemRate: 28.99, // Amount in dollars
+    discount: 25,  // Percentage discount
     offerPrice: function() {
-      var offerRate = this.roomRate * ((100 - this.discount) / 100);
+      var offerRate = this.itemRate * ((100 - this.discount) / 100);
       return offerRate;
     }
   };
 
   // Write out the hotel name, standard rate, and the special rate
-  var hotelName, roomRate, specialRate;                    // Declare variables
+  var itemName, itemRate, specialRate;                    // Declare variables
 
-  hotelName = document.getElementById('hotelName');        // Get elements
-  roomRate = document.getElementById('roomRate');
+  itemName = document.getElementById('itemName');        // Get elements
+  itemRate = document.getElementById('itemRate');
   specialRate = document.getElementById('specialRate');
 
-  hotelName.textContent = hotel.name;                      // Write hotel name
-  roomRate.textContent =  '$' + hotel.roomRate.toFixed(2); // Write room rate
-  specialRate.textContent = '$' + hotel.offerPrice();      // Write offer price
+  itemName.textContent = item.name;                      // Write hotel name
+  itemRate.textContent =  '$' + plush.itemRate.toFixed(2); // Write room rate
+  specialRate.textContent = '$' + plush.offerPrice();      // Write offer price
 
 
   // PART TWO: CALCULATE AND WRITE OUT THE EXPIRY DETAILS FOR THE OFFER
