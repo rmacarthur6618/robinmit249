@@ -18,9 +18,9 @@
   itemRate = document.getElementById('itemRate');
   specialRate = document.getElementById('specialRate');
 
-  itemName.textContent = item.name;                      // Write hotel name
-  itemRate.textContent =  '$' + plush.itemRate.toFixed(2); // Write room rate
-  specialRate.textContent = '$' + plush.offerPrice();      // Write offer price
+  itemName.textContent = item.name;
+  itemRate.textContent =  '$' +hotel.itemRate.toFixed(2);
+  specialRate.textContent = '$' + hotel.offerPrice();
 
 
   // PART TWO: CALCULATE AND WRITE OUT THE EXPIRY DETAILS FOR THE OFFER
