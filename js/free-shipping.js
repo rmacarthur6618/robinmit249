@@ -1,4 +1,4 @@
-var msg = '<div class="header">This item is eligible for free shipping!</div>';
+var msg = '<div class="noteHeader">This item is eligible for free shipping!</div>';
 msg += '<input type="button" name="button" value="OK" class="buyButton">';
 
 var elFreeship = document.createElement('div');
@@ -11,4 +11,4 @@ function dismissNote() {
 }
 
 var elClose = document.getElementById('buyButton');
-elClose.addEventListener('click', dismissNote, false);
+elClose.addEventListener('click', dismissNote, true);
