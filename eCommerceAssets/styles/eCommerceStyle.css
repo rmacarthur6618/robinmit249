@@ -103,49 +103,61 @@ header {
   padding: 10px 0;
 }
 
+
 #note {
-  color: #fff;
-  background-color: #000;
-  opacity: 0.9;
-  box-shadow: -3px 3px 6px #000;
-  padding: 1em 1em 2em 1em;
-  height: 95%;
-  width: 95%;
-  position: absolute;
-  top: 1em;
-  left: 0;
+	color: #7F144D;
+	background-color: #FFFFFF;
+	opacity: 0.9;
+	box-shadow: -3px 3px 6px rgba(127,19,77,0.64);
+	padding: 1em 1em 2em 1em;
+	height: 50%;
+	width: 50%;
+	position: absolute;
+	top: 1em;
+	left: 0;
+	-webkit-box-shadow: -3px 3px 6px rgba(127,19,77,0.64);
 }
 
-#note .noteHeader + div {
-  background: rgb(255, 255, 255);
-  background: rgba(255, 255, 255, 1);
-  position: relative;
-  text-align: center;
-  top: 1px;
-  color: #7F144D;
-  padding: 20px;
-  margin: 30px;
-  border: 1px solid #7F144D;
+#note div {
+	background: rgb(255, 255, 255);
+	position: relative;
+	text-align: center;
+	top: 1px;
+	color: #7F144D;
+	padding: 20px;
+	margin: 30px;
+	border: 1px solid #5C0F38;
 }
 
 #note h2 {
-  color: #7F144D;
-  padding-top: 20px;
-  padding-bottom: 20px;
+	color: #5C0F38;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#note h3 {
+	color: #7F144D;
+	font-family: "Fredoka One", sans-serif;
+	text-align: center;
 }
 
 #note a {
-  text-decoration: none;
-  color: #fff;
+	text-decoration: none;
+	color: #5C0F38;
+	text-align: center;
 }
+
+#note .header {
+  text-align: right;
+  background-color: #000;
+  border: none;
+  padding: 0 0 0 10px;}
 
 .shown {
-  visibility: visible;
-}
+  visibility: visible;}
 
 .hidden {
-  visibility: hidden;
-}
+  visibility: hidden;}
+
 
 #info {
   background-color: rgba(191,119,158,0.77);
@@ -300,7 +312,7 @@ header {
 .productRow .productInfo .buyButton {
 	position: relative;
 	top: -48px;
-	width: 84%;
+	text-decoration: none;
 	background-color: rgba(191,119,158,1.00);
 	height: 35px;
 	color: rgba(255,255,255,1.00);
@@ -311,6 +323,33 @@ header {
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	font-weight: bold;
 	border-radius: 10px;
+	display: inline-block;
+	width: 160px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#buyButton {
+	position: relative;
+	top: -48px;
+	text-decoration: none;
+	background-color: rgba(191,119,158,1.00);
+	height: 35px;
+	border-style: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 8px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight: bold;
+	border-radius: 10px;
+	display: inline-block;
+	width: 160px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#buyButton a {
+	color: #FFF;
 }
 
 /* footer */
