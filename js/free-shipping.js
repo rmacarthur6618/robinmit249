@@ -1,14 +1,16 @@
-var msg = '<div class="noteHeader">This item is eligible for free shipping!</div>';
-msg += '<input type="button" name="button" value="OK" class="buyButton">';
+var msg = '<h3 id="note">This item qualifies for free shipping!</h3>';
+msg += '<a href="#" id="buyButton" onclick="dismissNote()">OK<script src="js/free-shipping.js"></script></a>';
 
-var elFreeship = document.createElement('div');
-elFreeship.setAttribute('id', 'note');
-elFreeship.innerHTML = msg;
-document.body.appendChild(elFreeship);
+function freeShipping () {
+	var elNote = document.createElement('div');       
+	elNote.setAttribute('id', 'note');                
+	elNote.innerHTML = msg;                           
+	document.body.appendChild(elNote);  
+}              
 
-function dismissNote() {
-	document.body.removeChild(elFreeship);
+function dismissNote() {                         
+  document.body.removeChild(elNote);
 }
 
 var elClose = document.getElementById('buyButton');
-elClose.addEventListener('click', dismissNote, true);
+elClose.addEventListener('click', dismissNote, false);
