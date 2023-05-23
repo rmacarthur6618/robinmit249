@@ -1,164 +1,109 @@
-<!doctype html>
-<html><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
-<head>
-<meta charset="utf-8">
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>Plushie Paradise - Home</title>
-<!-- InstanceEndEditable -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="eCommerceAssets/styles/eCommerceStyle.css" rel="stylesheet" type="text/css">
-<link href="css/styles.css" rel="stylesheet" type="text/css">
-<link rel="icon" type="image/x-icon" href="images/favicon.gif">
-<script type="text/javascript" href="../js/add-content.js"></script>
-<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
-<script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
-</head>
-
-<body>
-<div id="mainWrapper">
-  <header> 
-    <!-- This is the header content. It contains Logo and links -->
-    <div id="logo"> 
-      <!-- <img src="logoImage.png" alt="sample logo"> -->
-      <!-- Company Logo text -->
-		<a href="index.html" class="logolink">PLUSHIE PARADISE</a></div>
-    <div id="headerLinks"><a href="#" title="Login/Register" class="headertxt" style="margin-left:-10px;">Login/Register</a><a href="#" title="Cart" class="headertxt" style="margin-right:50px">Cart</a></div>
-	<script src="js/add-content.js"></script>
-	  <!-- InstanceBeginEditable name="title" -->
-	  <h2>FEATURED ITEMS</h2>
-	  <!-- InstanceEndEditable -->
-  </header>
-
-  <div id="content">
-    <section class="sidebar"> 
-      <!-- This adds a sidebar with 1 searchbox,2 menusets, each with 4 links -->
-      <input type="text"  id="search" value="search">
-    <div id="info">
-      <h1>latest bargain deal</h1>
-      <div id="itemName"></div>
-      <div id="itemRate"></div>
-      <div id="specialRate"></div>
-      <div id="offerEnds"></div>
-	  <script src="js/offer-expires.js"></script>
-    </div>
-		
-      <div id="menubar">
-        <nav class="menu">
-          <h2><!-- Title for menuset 1 -->BY CHARACTER/BRAND</h2>
-          <hr>
-          <ul>
-            <!-- List of links under menuset 1 -->
-            <li><a href="rilakkuma.html" title="Link">Rilakkuma</a></li>
-            <li><a href="sanrio.html" title="Link">Sanrio</a></li>
-            <li><a href="squishmallow.html" title="Link">Squishmallows</a></li>
-			<li><a href="pusheen.html" title="Link">Pusheen</a></li>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap eCommerce Page Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+	<script src="js/google-map-controls.js"></script>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;}
+      #map {
+        width: 400px;
+        height: 400px;
+        margin: 50px;
+      }
+    </style>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
           </ul>
-        </nav>
-        <nav class="menu">
-          <h2>BY SIZE </h2>
-          <!-- Title for menuset 2 -->
-          <hr>
-          <ul>
-            <!--List of links under menuset 2 -->
-            <li><a href="#" title="Link">Mini</a></li>
-            <li><a href="#" title="Link">Small</a></li>
-            <li><a href="#" title="Link">Medium</a></li>
-            <li><a href="#" title="Link">Large</a></li>
-			<li><a href="#" title="Link">Jumbo</a></li>
-          </ul>
-        </nav>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
       </div>
-    </section>
-	<!-- InstanceBeginEditable name="main" -->
-<section class="mainContent">
-      <div class="productRow"><!-- Each product row contains info of 3 elements -->
-        <article class="productInfo"><!-- Each individual product description -->
-          <div><img alt="sample" src="images/cinnamonroll.jpg"></div>
-          <p class="price">$17.99</p>
-			<p class="productContent">Squishmallow&trade; Cinnamon Roll</p>
-				<a href="#" class="buyButton" onmousedown="freeShipping()">Buy</a>
-    	  		<script src="js/free-shipping.js"></script>
-        </article>
-        <article class="productInfo"><!-- Each individual product description -->
-          <div><img alt="3 mini pastel crab plushies" src="images/pastelcrabs.jpg"></div>
-          <p class="price">$15.99</p>
-          <p class="productContent">Mini Pastel Crab Plush (3 pc)</p>
-				<a href="#" class="buyButton" onclick="freeShipping()">Buy</a>
-    	  		<script src="js/free-shipping.js"></script>
-        </article>
-        <article class="productInfo"> <!-- Each individual product description -->
-          <div><img alt="corgi plush holding loaf of bread" src="images/breadcorgi.jpg"></div>
-          <p class="price">$16.90</p>
-          <p class="productContent">Baker Corgi Plush</p>
-				<a href="#" class="buyButton" onclick="freeShipping()">Buy</a>
-    	  		<script src="js/free-shipping.js"></script>
-        </article>
-      </div>
-      <div class="productRow"> 
-        <!-- Each product row contains info of 3 elements -->
-        <article class="productInfo"> <!-- Each individual product description -->
-          <div><img alt="green frog slippers" src="images/froggyslippers.jpg"></div>
-          <p class="price">$21.89</p>
-          <p class="productContent">Froggy Slippers</p>
-				<a href="#" class="buyButton" onclick="freeShipping()">Buy</a>
-    	  		<script src="js/free-shipping.js"></script>
-        </article>
-        <article class="productInfo"> <!-- Each individual product description -->
-          <div><img alt="axolotl plush" src="images/axolotl.jpg"></div>
-          <p class="price">$19.99</p>
-          <p class="productContent">Axolotl Plush</p>
-				<a href="#" class="buyButton" onclick="freeShipping()">Buy</a>
-    	  		<script src="js/free-shipping.js"></script>
-        </article>
-        <article class="productInfo"><!-- Each individual product description -->
-          <div><img alt="white kitten plush with red hood" src="images/ridinghood.jpg"></div>
-          <p class="price">$18.80</p>
-          <p class="productContent">Little Red Riding Hood Kitty</p>
-				<a href="#" class="buyButton" onclick="freeShipping()">Buy</a>
-    	  		<script src="js/free-shipping.js"></script>
-        </article>
-      </div>
-      <div class="productRow">
-        <article class="productInfo"> <!-- Each individual product description -->
-          <div><img alt="big and soft pink mushroom plush" src="images/mushroom.jpg"></div>
-          <p class="price">$29.99</p>
-          <p class="productContent">Jumbo Mushroom Plush</p>
-				<a href="#" class="buyButton" onclick="freeShipping()">Buy</a>
-    	  		<script src="js/free-shipping.js"></script>
-        </article>
-        <article class="productInfo"><!-- Each individual product description -->
-          <div><img alt="white dumpling plush" src="images/dumpling.jpg"></div>
-          <p class="price">$16.99</p>
-          <p class="productContent">Cute Dumpling Plush</p>
-				<a href="#" class="buyButton" onclick="freeShipping()">Buy</a>
-    	  		<script src="js/free-shipping.js"></script>
-        </article>
-        <article class="productInfo"><!-- Each individual product description -->
-          <div><img alt="small carton of milk plushie with pusheen's face" src="images/pusheen-milk.jpg"></div>
-          <p class="price">$11.90</p>
-          <p class="productContent">Mini Pusheen&trade; Strawberry Milk Plush</p>
-				<a href="#" class="buyButton" onclick="freeShipping()">Buy</a>
-    	  		<script src="js/free-shipping.js"></script>
-        </article>
-      </div>
-    </section>
-  </div>
-  <!-- InstanceEndEditable -->
-  <footer> 
-    <!-- This is the footer with default 3 divs -->
-    
-    <div>
-      <p class="footertxt">Copyright Plushie Paradise 2023. All rights reserved.</p>
-    </div>
-    <div class="footerlinks">
-      <p><a href="https://www.san-x.jp/" title="Link">San-X Official Site</a></p>
-      <p><a href="https://www.sanrio.com/" title="Link">Sanrio Official</a></p>
-	  <p><a href="https://www.squishmallows.com/" title="Link">Squishmallows Official</a></p>
-      <p><a href="https://pusheen.com/" title="Link">Pusheen Official</a></p>
-    </div>
-  </footer>
+    </nav>
+	  
+	  
+<hr>
+    <h2 class="text-center">RECOMMENDED PRODUCTS</h2>
+    <hr>
+	  
+  <div class="container">
+	<header><h1 class="text-center">Monsieur Pigeon</h1></header>
+
+    <section class="page panel">
+      <h2 class="text-center">The Flower Series</h2>
+		<div class="description col-xl-4">
+		  <p class="standfirst">Take your tastebuds for a gentle stroll through an English garden filled with Monsieur Pigeon's beautifully fragrant Flower Series marshmallows.</p>
+		  <p>With three sweetly floral options: <strong>Elderberry</strong>, <strong>Rose Petal</strong>, and <strong>Chrysanthemum</strong> - all edible and all naturally flavored - they will have you dreaming of butterflies and birdsong in no time.</p>
+		  <p><strong>$5.75</strong> / 3.5 oz packet</p>
+		  <a href="" id="buy">Buy now</a></div>
+		<div class="col-xl-7" id="photo-viewer"></div>
+<div id="thumbnails">
+    <a href="images/400X200.gif" class="thumb active" title="Elderberry Marshmallow"><img src="images/40x40.gif" alt="Elderberry Marshmallow" /></a>
+    <a href="images/400X200.gif" class="thumb" title="Rose Marshmallow"><img src="images/40X40.gif" alt="Rose Marshmallow" /></a>
+    <a href="images/400X200.gif" class="thumb" title="Crysanthemum Marshmallow"><img src="images/40X40.gif" alt="Crysanthemum Marshmallow" /></a>        
+	</div>
 </div>
-</body>
-<!-- InstanceEnd --></html>
+
+    </section>
+
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/photo-viewer.js"></script>
+<hr>
+<div id="map"></div>
+<script src="js/google-map.js"></script>
+
+
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright © MyWebsite. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+    <script src="js/modernizr.2.7.1.js"></script>
+    <script src="js/geolocation.js"></script>
+  </body>
+</html>
